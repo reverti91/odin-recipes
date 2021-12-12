@@ -1,0 +1,69 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    
+}
+
+body{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+.all{
+    background-color: darkgrey;
+}
+.fruitcake{
+    background-color: rgba(239, 248, 210, 0.911);
+}
+
+img{
+    grid-area: image;
+    border: 5px solid rgba(150, 226, 135,0.2);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 400px;
+    margin: 15px 15px 15px 15px;
+    
+}
+.title{
+    text-align: center;
+}
+ul{
+    text-align: justify;
+    grid-area: list;
+    margin: 0 0 15px 30px;
+}
+
+.block_head{
+    display: grid inline-grid;
+}
+.details{
+    grid-area: image;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 15px 15px 15px 15px;
+    text-align: center justify;
+    padding: 10px;
+}
+.detail2{
+    grid-area: image;
+    border: 1px solid rgba(63, 245, 26, 0.2);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 15px 15px 15px 15px;
+    text-align: center justify;
+    padding: 10px;
+}
+.detail3{
+    grid-area: image;
+    border: 1px solid rgba(63, 245, 26, 0.2);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 35px 15px 15px 15px;
+    margin-left: 85px;
+    text-align: center justify;
+    width: auto;
+    padding: 10px;
+}
